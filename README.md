@@ -1,38 +1,36 @@
-# IIT Mandi AI and Robotics Internship
+# Internship June 2025
 
-Computer vision and robotics perception experiments from my IIT Mandi internship.
+## Overview
 
-The repo contains camera calibration, checkerboard-based distance estimation, and webcam odometry scripts. It supports my AI/ML profile by showing applied perception work beyond web apps and LLM workflows.
+IIT Mandi AI/Robotics internship code for camera calibration, checkerboard distance estimation, and webcam odometry.
 
-## Focus Areas
+Project type: Python script project.
 
-- Camera calibration
-- Distance estimation using checkerboard geometry
-- Webcam odometry experiments
-- Visual perception workflow exploration
-- Robotics-oriented computer vision scripts
+## What This Repository Contains
 
-## Repository Map
-
-```text
-calibrate_camera.py
-distance_estimation_to_checkerboard.py
-webcam_odometry.py
-code1.py
-code2.py
-code3.py
-```
+- `README.md`
 
 ## Tech Stack
 
-Python, OpenCV-style computer vision workflows, camera geometry, image/video processing.
+Python
 
-## Recruiter Notes
+## How To Run / Use
 
-This project is best framed as applied computer vision and robotics exposure. It should be pinned only after screenshots, sample calibration images, or a short demo clip are added.
+Run the relevant Python script directly:
 
-## Next Improvements
+```bash
+python calibrate_camera.py
+```
 
-- Add sample input/output images
-- Rename generic files such as `code1.py`, `code2.py`, and `code3.py`
-- Add a short explanation of the camera model and distance-estimation method
+If imports are missing, install the libraries used at the top of the script.
+
+## Current Status
+
+This repository has enough structure to be understandable from the README and file layout.
+
+## Notes For Reviewers
+
+- Start with the overview and key files above.
+- If this is a notebook repository, run it in a clean Jupyter or VS Code notebook environment.
+- If this is a frontend app, run the install/build commands before judging the project.
+- Some older practice repositories are kept public for learning history, not as primary portfolio pieces.
